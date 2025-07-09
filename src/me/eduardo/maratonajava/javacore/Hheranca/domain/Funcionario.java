@@ -3,6 +3,12 @@ package me.eduardo.maratonajava.javacore.Hheranca.domain;
 public class Funcionario extends Pessoa{
     private double salario;
 
+    //herança pt4 , quando eu adicionar um construtor na class pai, tenho que adicionar na class
+    // filho usando o super e passando o parêmetro que neste caso é o nome
+    public Funcionario(String nome) {
+        super(nome);
+    }
+
     public void imprime(){
         //uso a palavra reservada super para e depois a funcao imprime, para imprimar os dados que já
         //tinha na outra class, apenas adicionando o salário em seguida
