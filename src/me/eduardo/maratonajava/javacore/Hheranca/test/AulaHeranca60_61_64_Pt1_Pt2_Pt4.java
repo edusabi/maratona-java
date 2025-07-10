@@ -4,7 +4,7 @@ import me.eduardo.maratonajava.javacore.Hheranca.domain.Endereco;
 import me.eduardo.maratonajava.javacore.Hheranca.domain.Funcionario;
 import me.eduardo.maratonajava.javacore.Hheranca.domain.Pessoa;
 
-public class Aula60HerancaPt1ePt2ePt4 {
+public class AulaHeranca60_61_64_Pt1_Pt2_Pt4 {
     public static void main(String[] args) {
         Endereco endereco = new Endereco();
         endereco.setRua("Rua 3");
