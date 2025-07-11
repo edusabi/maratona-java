@@ -7,5 +7,6 @@ public class Aula66Sobrescrita {
         Anime anime = new Anime("Dr. Stone");
 
         System.out.println(anime);
+
     }
 }
