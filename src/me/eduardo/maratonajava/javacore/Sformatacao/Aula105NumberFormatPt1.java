@@ -3,7 +3,7 @@ package me.eduardo.maratonajava.javacore.Sformatacao;
 import java.text.NumberFormat;
 import java.util.Locale;
 
-public class Aula104NumberFormatPt1 {
+public class Aula105NumberFormatPt1 {
     public static void main(String[] args) {
         Locale localeDefault = Locale.getDefault();
         Locale localeBR = new Locale("pt", "BR");
