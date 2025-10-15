@@ -13,9 +13,10 @@ public class PatternMatcherPt3 {
         // \W = Tudo que não for incluso no /w
         // [] =
 
-        String regex = "[a-zA-C]";
+//        String regex = "[a-zA-C]";
+        String regex = "0[xX][0-9a-fAA-F]";
 //        String text = "abaaba";
-        String text2 = "cafeBABE";
+        String text2 = "12 0x 0X 0xFFABC 0x109 0x1";
 
         Pattern pattern = Pattern.compile(regex);
         Matcher matcher = pattern.matcher(text2);
