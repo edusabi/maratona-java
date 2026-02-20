@@ -1,5 +1,4 @@
 package me.eduardo.maratonajava.javacore.JmodificadorFinal.domain;
 
-public class Ferrari extends Carro {
-
+public class Ferrari extends Carro{
 }

@@ -1,6 +1,7 @@
 package me.eduardo.maratonajava.javacore.Npolimorfismo.domain;
 
 public class Televisao extends Produto{
+
     public static final double IMPOSTO_POR_CENTO = 0.21;
 
     public Televisao(String nome, double valor) {
@@ -9,7 +10,7 @@ public class Televisao extends Produto{
 
     @Override
     public double calcularImposto() {
-        System.out.println("Calculando imposto da televisão");
+        System.out.println("Calculando imposto da televisão...");
         return this.valor * IMPOSTO_POR_CENTO;
     }
 }

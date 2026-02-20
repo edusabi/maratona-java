@@ -2,7 +2,6 @@ package me.eduardo.maratonajava.javacore.JmodificadorFinal.domain;
 
 public class Comprador {
     private String nome;
-    public static final Comprador COMPRADOR = new Comprador();
 
     @Override
     public String toString() {
