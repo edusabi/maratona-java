@@ -1,4 +1,4 @@
-package me.eduardo.maratonajava.javacore.Qdatas.test;
+package me.eduardo.maratonajava.javacore.Rdatas.test;
 
 import java.util.Date;
 
